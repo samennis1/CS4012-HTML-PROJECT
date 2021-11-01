@@ -1,7 +1,17 @@
 .center {
-    text-align: center;
+    text-align: left;
 }
 
 .startext {
-    color: aquamarine
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 240px;
+    font-family: Calibri;
+}
+
+button {
+    size: 1rem;
 }
