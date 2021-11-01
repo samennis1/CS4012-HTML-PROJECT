@@ -4,42 +4,21 @@
 
 .startext {    
     background-color: rgba(265, 265, 265, 0.5);
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: white;
     font-size: 240px;
     font-family: Calibri;
 }
 
-<<<<<<< Updated upstream
-=======
-.text-bg {
-    background-size: 10px;
-    background-color: black;
-    opacity: .5;
-}
-
-.alttext {    
-    color: white;
+.alttext {
+    background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
+    color: white;
     font-size: 100px;
     font-family: Calibri;
 }
 
-
-button {
-    size: 1rem;
-}
-
-.foreground {
-    position: absolute;
-    top : 0;
-    right: 0;
-    left: 0;
-    overflow: hidden;
-    box-sizing: border-box;
-}
-
->>>>>>> Stashed changes
 .norepeat {
     background-size: cover;
     width: 100%;
@@ -55,25 +34,27 @@ button {
     width: auto; 
     height: auto;
     z-index: -100;
-<<<<<<< Updated upstream
-  }
+}
 
 #button {
     text-align: center;
- }
+}
 
- .buttonlook {
+.buttonlook {
     background-color: darkslategrey;
     color: aliceblue;
     padding: 15px 32px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
     border: solid darkslategrey;
- }
-=======
-    filter: blur(5px);
-    -webkit-filter: blur(5px);
 }
 
+.text-bg {
+    background-color: black;
+    opacity: 0.5;
+}
 
 .css-selector {
     background-image: linear-gradient(270deg, #f6f6dc, #f3f309);
@@ -102,4 +83,3 @@ button {
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
->>>>>>> Stashed changes
