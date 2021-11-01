@@ -2,10 +2,7 @@
     text-align: left;
 }
 
-.startext {
-    border-radius: 5px;
-    border-color: black;
-    border-style: solid;
+.startext {    
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 240px;
