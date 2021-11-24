@@ -1,7 +1,7 @@
 var jobs = {
     "jobs": [
     {
-        "title": "Washing  Dishes",
+        "title": "Washing Dishes",
         "duration": "1-8 hours",
     },
     {
