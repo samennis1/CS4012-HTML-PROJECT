@@ -49,8 +49,8 @@ for(let job of jobs.jobs) {
     button.addEventListener('click', (e) => {
         button.innerHTML = "Applied"
         button.disabled = true;
-        alert(`Thank you for applying for ` + jobTitle + `!\n\nWe will get back to you in regards to your application within 72 hours.\n\nThank you for helping us HelpAlong.`);
         i = i + 1;
-        document.getElementById("applied").innerHTML = "Applied For: " + i + " Job(s)";
+        document.getElementById("jobincrement").innerHTML = "Applied For: " + i + " Job(s)";
+        alert(`Thank you for applying for ` + jobTitle + `!\n\nWe will get back to you in regards to your application within 72 hours.\n\nThank you for helping us HelpAlong.`);
     })
 }
