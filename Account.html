@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>HelpAlong</title>
-    <h1>HelpAlong</h1>
+    <h1><a href="index.html">HelpAlong</a></h1>
     <link rel="stylesheet" href="style.css">
     <!-- <meta http-equiv="refresh" content="10" > -->
     <meta charset="utf-8">
@@ -17,8 +17,8 @@
         </ul>
     </div>
     <h2 class="text-centered">Your Account</h2>
-    <!-- sidebar -->
     <div class="jobs">
+        <h2 id="jobincrement" class="applied text-centered">Applied For: <b>0</b> Job(s)</h2>
         <table>
             <tr>
                 <th>Job Title</th>
@@ -26,16 +26,32 @@
                 <th>Apply</th>
             </tr>
         </table>
+        <h2 class="applied text-centered">Contact Info</h2>
+        <div id="form-1">
+            <form action="login.php" method="post">
+                <label for="username">Legal Name:</label>
+                <input type="text" name="username" id="username">
+                <br>
+                <label for="org">Organisation Name:</label>
+                <input type="text" name="org" id="org">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+                <br>
+                <!-- <label for="resume">Resume:</label> -->
+                <!-- <input type="file" name="CV" id="CV"> -->
+                <!-- <br> -->
+                <button id="submitbutton" onclick="alert('User data has been updated.')">Update</button>
+                
+            </form>
+        </div>
     </div>
-    <div class="sidebar">
-        <ul>
-            <li>Available Jobs</a></li>
-            <li id="applied">Applied For: <b>0</b> Jobs</li>
-        </ul>
+    <div class="footer">
+        <footer>
+            <p>&copy; 2021 Sam Ennis, Euan Bourke, Callum Quinn, Martynas Danys</p>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://pbs.twimg.com/profile_images/531381005165158401/bUJYaSO9_400x400.png" height="30px"></a>
+        </footer>
     </div>
-    <footer>
-        <p>&copy; 2021 Euan Bourke, Sam Ennis, Callum Quinn, Martynas Danys (not really)</p>
-    </footer>
 </body>
 <script src="scripts/jobs.js" type="text/javascript"></script>
 </html>
