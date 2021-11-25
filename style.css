@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
+a:visited { 
+    text-decoration: none; 
+    color:black; 
+}
+a:hover { 
+    text-decoration: none;
+    color:black;
+}
+a:focus { 
+    text-decoration: none;
+    color:black; 
+}
+a:hover, a:active { 
+    text-decoration: none;
+    color:black
+}
+
 ul {
     list-style-type: none;
     margin: 0;
